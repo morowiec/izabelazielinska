@@ -3,6 +3,7 @@ description: 'Provides site components.'
 type: module
 core: 8.x
 dependencies:
+  - block
   - block_content
   - ckeditor
   - contact
@@ -11,6 +12,7 @@ dependencies:
   - field
   - filter
   - language
+  - path
   - rdf
   - taxonomy
   - text
