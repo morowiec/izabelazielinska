@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_of_exhibition
+    - node.type.exhibition
+    - taxonomy.vocabulary.exhibition_type
+id: node.exhibition.field_type_of_exhibition
+field_name: field_type_of_exhibition
+entity_type: node
+bundle: exhibition
+label: 'Type of exhibition'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      exhibition_type: exhibition_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

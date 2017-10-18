@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Exhibition type'
+vid: exhibition_type
+description: 'Contains type of exhibition eg collective, individual.'
+hierarchy: 0
+weight: 0

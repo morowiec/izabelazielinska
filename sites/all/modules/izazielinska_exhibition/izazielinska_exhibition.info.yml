@@ -1,0 +1,19 @@
+name: Exhibition
+description: 'Provides Exhibition content type and related configuration. Use Exhibition for adding new exhibition on about me page.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - content_translation
+  - ctools
+  - datetime
+  - field
+  - language
+  - menu_ui
+  - node
+  - path
+  - system
+  - taxonomy
+  - user
+  - views
+package: izazielinska

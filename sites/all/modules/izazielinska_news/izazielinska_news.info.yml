@@ -1,0 +1,14 @@
+name: News
+description: 'Provides News content type and related configuration. Use News pages for your news content.'
+type: module
+core: 8.x
+dependencies:
+  - content_translation
+  - field
+  - language
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+package: izazielinska

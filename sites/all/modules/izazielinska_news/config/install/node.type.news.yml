@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:standard.front_page'
+name: News
+type: news
+description: 'Use News pages for your news content.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
