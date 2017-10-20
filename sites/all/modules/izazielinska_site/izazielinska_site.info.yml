@@ -6,14 +6,20 @@ dependencies:
   - block
   - block_content
   - ckeditor
+  - comment
   - contact
   - content_translation
   - editor
+  - features
   - field
   - filter
+  - image
   - language
+  - node
   - path
   - rdf
+  - system
   - taxonomy
   - text
+  - user
 package: izazielinska
