@@ -1,8 +1,110 @@
 body {
-  color: #FFF;
+  color: #fff;
   background-color: #333;
+}
+
+a {
+  color: #999;
+}
+a:hover {
+  color: #bbb;
+}
+a:focus {
+  color: #ddd;
+}
+
+.navbar-nav a:hover {
+  color: #333;
+}
+
+.navbar-nav a:focus {
+  color: #111;
 }
 
 .main-container {
   background-color: #111;
+  padding-top: 1em;
 }
+
+.footer {
+  margin-top: 0;
+  border: none;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar.container {
+  border: none;
+  border-radius: 0;
+  position: relative;
+  background: #333 url(../images/header.jpg) top left;
+}
+
+@media screen and (min-width:768px) {
+  .navbar.container {
+    max-width: 750px;
+    height: 160px;
+  }
+
+}
+
+@media screen and (min-width:992px){
+  .navbar.container {
+    max-width: 970px;
+    height: 206px;
+  }
+
+}
+
+@media screen and (min-width:1200px){
+  .navbar.container{
+    max-width: 1170px;
+    height: 250px;
+  }
+
+}
+
+.navbar-header {
+  background-color: #F8F8F8;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-rigth: 1px solid #fff;
+  border-radius: 3px 3px 0 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.language-switcher-language-url {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+.language-switcher-language-url ul.links {
+  list-style: none;
+}
+.language-switcher-language-url ul.links li {
+  float: left;
+  width: 28px;
+  height: 18px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.language-switcher-language-url ul.links li a {
+  width: 28px;
+  height: 18px;
+  overflow: hidden;
+  color: transparent;
+}
+.language-switcher-language-url ul.links li.en a {
+  background: #333 url(../images/en.gif) top left;
+}
+.language-switcher-language-url ul.links li.pl a {
+  background: #333 url(../images/pl.gif) top left;
+}
+.language-switcher-language-url ul.links li.de a {
+  background: #333 url(../images/de.gif) top left;
+}
+
