@@ -22,4 +22,5 @@ dependencies:
   - taxonomy
   - text
   - user
+  - views
 package: izazielinska

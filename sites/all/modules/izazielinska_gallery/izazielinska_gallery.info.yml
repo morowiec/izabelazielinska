@@ -3,6 +3,7 @@ description: 'Provides Gallery content type and related configuration. Use Galle
 type: module
 core: 8.x
 dependencies:
+  - colorbox
   - content_translation
   - field
   - file
