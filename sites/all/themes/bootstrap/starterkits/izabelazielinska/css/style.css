@@ -108,3 +108,11 @@ a:focus {
   background: #333 url(../images/de.gif) top left;
 }
 
+.field--name-field-images .field--item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.field--name-field-images .field--item img {
+  margin: 0 auto;
+}
