@@ -13,11 +13,13 @@ dependencies:
   - features
   - field
   - filter
+  - help
   - image
   - language
   - node
   - path
   - rdf
+  - search
   - system
   - taxonomy
   - text

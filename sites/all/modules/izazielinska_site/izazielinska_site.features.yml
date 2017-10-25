@@ -1,2 +1,6 @@
 bundle: izazielinska
+excluded:
+  - block.block.bartik_main_menu
+  - block.block.bartik_powered
+  - block.block.bootstrap_main_menu
 required: true
