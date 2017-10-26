@@ -40,12 +40,12 @@ a:focus {
   border-radius: 0;
   position: relative;
   background: #333 url(../images/header.jpg) top left;
+  height: 160px;
 }
 
 @media screen and (min-width:768px) {
   .navbar.container {
     max-width: 750px;
-    height: 160px;
   }
 
 }
