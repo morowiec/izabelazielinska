@@ -15,6 +15,7 @@ dependencies:
   - filter
   - help
   - image
+  - izazielinska_site
   - language
   - node
   - path
