@@ -10,9 +10,9 @@ theme: izabelazielinska
 region: footer
 weight: 0
 provider: null
-plugin: copyright_block_example_block
+plugin: copyright_block
 settings:
-  id: copyright_block_example_block
+  id: copyright_block
   label: CopyrightBlock
   provider: izazielinska_site
   label_display: '0'

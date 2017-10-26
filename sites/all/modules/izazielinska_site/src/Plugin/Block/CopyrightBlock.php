@@ -11,7 +11,7 @@ use Drupal\Core\Session\AccountInterface;
  * Provides a block with a simple text.
  *
  * @Block(
- *   id = "copyright_block_example_block",
+ *   id = "copyright_block",
  *   admin_label = @Translation("CopyrightBlock"),
  * )
  */
