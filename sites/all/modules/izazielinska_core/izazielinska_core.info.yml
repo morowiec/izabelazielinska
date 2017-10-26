@@ -16,4 +16,5 @@ dependencies:
   - taxonomy
   - tour
   - user
+  - views
 package: izazielinska
