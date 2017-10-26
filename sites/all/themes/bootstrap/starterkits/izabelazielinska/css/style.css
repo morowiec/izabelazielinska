@@ -13,6 +13,15 @@ a:focus {
   color: #ddd;
 }
 
+.navbar-default .navbar-brand {
+  color: #fff;
+  text-shadow: 2px 2px 3px #333;
+  font-size: 30px;
+}
+.navbar-default a.navbar-brand:hover {
+  color: #ddd;
+}
+
 .navbar-nav a:hover {
   color: #333;
 }
@@ -24,6 +33,7 @@ a:focus {
 .main-container {
   background-color: #111;
   padding-top: 1em;
+  padding-bottom: 1.5em;
 }
 
 .footer {
@@ -85,11 +95,17 @@ a:focus {
   list-style: none;
 }
 .language-switcher-language-url ul.links li {
-  float: left;
+  overflow: hidden;
   width: 28px;
   height: 18px;
-  overflow: hidden;
-  margin: 5px;
+  margin: 1px;
+}
+@media screen and (min-width:768px) {
+  .language-switcher-language-url ul.links li {
+    float: left;
+    margin: 5px;
+  }
+
 }
 
 .language-switcher-language-url ul.links li a {
@@ -98,14 +114,15 @@ a:focus {
   overflow: hidden;
   color: transparent;
 }
+
 .language-switcher-language-url ul.links li.en a {
-  background: #333 url(../images/en.gif) top left;
+  background: #333 url(../images/en.gif);
 }
 .language-switcher-language-url ul.links li.pl a {
-  background: #333 url(../images/pl.gif) top left;
+  background: #333 url(../images/pl.gif);
 }
 .language-switcher-language-url ul.links li.de a {
-  background: #333 url(../images/de.gif) top left;
+  background: #333 url(../images/de.gif);
 }
 
 .field--name-field-images .field--item {
