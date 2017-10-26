@@ -13,6 +13,10 @@ a:focus {
   color: #ddd;
 }
 
+img {
+  border: 1px solid #ddd;
+}
+
 .navbar-default .navbar-brand {
   color: #fff;
   text-shadow: 2px 2px 3px #333;
