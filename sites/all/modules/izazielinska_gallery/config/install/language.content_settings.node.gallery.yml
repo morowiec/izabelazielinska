@@ -1,4 +1,4 @@
-langcode: en
+langcode: pl
 status: true
 dependencies:
   config:
@@ -11,5 +11,5 @@ third_party_settings:
 id: node.gallery
 target_entity_type_id: node
 target_bundle: gallery
-default_langcode: pl
+default_langcode: authors_default
 language_alterable: true

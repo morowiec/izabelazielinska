@@ -1,8 +1,8 @@
-langcode: en
+langcode: pl
 status: true
 dependencies: {  }
 name: izazielinska_gallery_180x252
-label: izazielinska_gallery_180x252
+label: 'Izazielinska gallery 180x252'
 effects:
   b4049829-5768-47e6-9d9b-8e78fca276fb:
     uuid: b4049829-5768-47e6-9d9b-8e78fca276fb

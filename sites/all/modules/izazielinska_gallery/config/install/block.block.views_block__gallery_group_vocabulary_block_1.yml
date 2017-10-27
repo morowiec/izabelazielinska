@@ -1,22 +1,22 @@
-langcode: pl
+langcode: en
 status: true
 dependencies:
   config:
-    - views.view.exhibitions
+    - views.view.gallery_group_vocabulary
   module:
     - ctools
     - system
     - views
   theme:
-    - bartik
-id: views_block__exhibitions_block_1
-theme: bartik
+    - izabelazielinska
+id: views_block__gallery_group_vocabulary_block_1
+theme: izabelazielinska
 region: content
-weight: -2
+weight: 0
 provider: null
-plugin: 'views_block:exhibitions-block_1'
+plugin: 'views_block:gallery_group_vocabulary-block_1'
 settings:
-  id: 'views_block:exhibitions-block_1'
+  id: 'views_block:gallery_group_vocabulary-block_1'
   label: ''
   provider: views
   label_display: visible
@@ -32,6 +32,6 @@ visibility:
       node: '@node.node_route_context:node'
   request_path:
     id: request_path
-    pages: "/about_me\r\n/o_mnie\r\n/uber_mich"
+    pages: "/gallery\r\n/galeria\r\n/galerie"
     negate: false
     context_mapping: {  }

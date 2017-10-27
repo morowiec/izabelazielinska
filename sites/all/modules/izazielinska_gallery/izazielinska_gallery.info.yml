@@ -3,6 +3,7 @@ description: 'Provides Gallery content type and related configuration. Use Galle
 type: module
 core: 8.x
 dependencies:
+  - block
   - colorbox
   - content_translation
   - ctools
@@ -15,8 +16,10 @@ dependencies:
   - path
   - pathauto
   - responsive_image
+  - system
   - taxonomy
   - text
   - user
   - views
+  - views_field_view
 package: izazielinska

@@ -1,0 +1,13 @@
+langcode: pl
+status: true
+dependencies: {  }
+name: izazielinska_gallery_253x253
+label: 'Izazielinska gallery 253x253'
+effects:
+  2ec23632-7b1e-4db8-a00c-01859481e591:
+    uuid: 2ec23632-7b1e-4db8-a00c-01859481e591
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 253
+      height: 253
