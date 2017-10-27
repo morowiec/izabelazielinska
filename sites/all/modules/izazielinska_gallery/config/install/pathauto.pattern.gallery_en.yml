@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: gallery_en
+label: 'Gallery EN'
+type: 'canonical_entities:node'
+pattern: 'gallery/[node:field_gallery_group:entity:name]/[node:title]'
+selection_criteria:
+  7cc18534-dea5-44bf-829b-ad5593d94ecd:
+    id: node_type
+    bundles:
+      gallery: gallery
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 7cc18534-dea5-44bf-829b-ad5593d94ecd
+  8ddbc643-c20f-40d8-a56b-4f04e54fa481:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 8ddbc643-c20f-40d8-a56b-4f04e54fa481
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language
