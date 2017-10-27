@@ -14,7 +14,7 @@ dependencies:
 id: gallery_group_vocabulary
 label: 'Gallery group vocabulary'
 module: views
-description: ''
+description: 'Display all gallery group terms'
 tag: ''
 base_table: taxonomy_term_field_data
 base_field: tid
@@ -151,7 +151,7 @@ display:
           exclude: true
           alter:
             alter_text: true
-            text: '/taxonomy/term/{{ tid__value }}'
+            text: '{{path(''entity.taxonomy_term.canonical'', {''taxonomy_term'': tid})}}'
             make_link: false
             path: ''
             absolute: false
@@ -477,32 +477,6 @@ display:
       max-age: -1
       contexts:
         - 'languages:language_content'
-        - 'languages:language_interface'
-        - user.permissions
-      tags:
-        - 'config:field.storage.taxonomy_term.field_main_image'
-  page_1:
-    display_plugin: page
-    id: page_1
-    display_title: 'P | Terms or node'
-    position: 2
-    display_options:
-      display_extenders: {  }
-      path: gallery
-      display_description: ''
-      menu:
-        type: none
-        title: Gallery
-        description: ''
-        expanded: false
-        parent: ''
-        weight: -48
-        context: '0'
-        menu_name: main
-      rendering_language: '***LANGUAGE_language_content***'
-    cache_metadata:
-      max-age: -1
-      contexts:
         - 'languages:language_interface'
         - user.permissions
       tags:
