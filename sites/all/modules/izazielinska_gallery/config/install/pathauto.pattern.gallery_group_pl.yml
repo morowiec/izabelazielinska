@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - language
+    - taxonomy
+id: gallery_group_pl
+label: 'Gallery group PL'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'galeria/[term:name]'
+selection_criteria:
+  60d247fe-7918-459f-b35a-5e963d25906e:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      gallery_group: gallery_group
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 60d247fe-7918-459f-b35a-5e963d25906e
+  48d2dcfe-99d6-4b82-adab-45479fac426d:
+    id: language
+    langcodes:
+      pl: pl
+    negate: false
+    context_mapping:
+      language: 'taxonomy_term:langcode:language'
+    uuid: 48d2dcfe-99d6-4b82-adab-45479fac426d
+selection_logic: and
+weight: -10
+relationships:
+  'taxonomy_term:langcode:language':
+    label: Language

@@ -5,6 +5,7 @@ core: 8.x
 dependencies:
   - colorbox
   - content_translation
+  - ctools
   - field
   - file
   - image
@@ -12,6 +13,7 @@ dependencies:
   - menu_ui
   - node
   - path
+  - pathauto
   - responsive_image
   - taxonomy
   - text
