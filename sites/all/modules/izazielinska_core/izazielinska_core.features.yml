@@ -1,2 +1,4 @@
 bundle: izazielinska
+excluded:
+  - views.view.frontpage
 required: true
