@@ -5,6 +5,7 @@ dependencies:
     - views.view.press_articles
   module:
     - ctools
+    - language
     - system
     - views
   theme:
@@ -19,7 +20,7 @@ settings:
   id: 'views_block:press_articles-block_1'
   label: ''
   provider: views
-  label_display: '0'
+  label_display: visible
   views_label: ''
   items_per_page: none
 visibility:
@@ -35,3 +36,10 @@ visibility:
     pages: "/about-me\r\n/o-mnie\r\n/uber_mich"
     negate: false
     context_mapping: {  }
+  language:
+    id: language
+    langcodes:
+      pl: pl
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
