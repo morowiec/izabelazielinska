@@ -18,7 +18,7 @@ field_name: field_images
 entity_type: node
 bundle: gallery
 label: Images
-description: 'Maximum 40 pictures.'
+description: 'Maximum 60 pictures.'
 required: false
 translatable: true
 default_value: {  }
