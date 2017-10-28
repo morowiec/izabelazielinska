@@ -2,20 +2,31 @@ langcode: en
 status: true
 dependencies:
   module:
+    - language
     - node
 id: press_article_pl
 label: 'Press article PL'
 type: 'canonical_entities:node'
-pattern: 'o-mnie/artykuly/[node:nid]'
+pattern: 'o-mnie/artykuly/[node:title]'
 selection_criteria:
-  d9a598b1-e408-44fc-a668-9d82ade9f295:
+  d8289cc3-e587-4766-a5db-58a4b0994724:
     id: node_type
     bundles:
       press_article: press_article
     negate: false
     context_mapping:
       node: node
-    uuid: d9a598b1-e408-44fc-a668-9d82ade9f295
+    uuid: d8289cc3-e587-4766-a5db-58a4b0994724
+  51a72b08-6f79-45e9-a549-d6c3e32b561f:
+    id: language
+    langcodes:
+      pl: pl
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 51a72b08-6f79-45e9-a549-d6c3e32b561f
 selection_logic: and
 weight: -5
-relationships: {  }
+relationships:
+  'node:langcode:language':
+    label: Language
