@@ -1,0 +1,20 @@
+name: 'Press article'
+description: 'Provides Press article content type and related configuration. Use Press article for adding new press article.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - content_translation
+  - ctools
+  - datetime
+  - field
+  - izazielinska_exhibition
+  - language
+  - menu_ui
+  - node
+  - path
+  - system
+  - text
+  - user
+  - views
+package: izazielinska
