@@ -32,6 +32,6 @@ visibility:
       node: '@node.node_route_context:node'
   request_path:
     id: request_path
-    pages: "/about_me\r\n/o_mnie\r\n/uber_mich"
+    pages: "/about-me\r\n/o-mnie\r\n/uber_mich"
     negate: false
     context_mapping: {  }

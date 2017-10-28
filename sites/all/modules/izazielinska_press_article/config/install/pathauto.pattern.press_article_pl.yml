@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: press_article_pl
+label: 'Press article PL'
+type: 'canonical_entities:node'
+pattern: 'o-mnie/artykuly/[node:nid]'
+selection_criteria:
+  d9a598b1-e408-44fc-a668-9d82ade9f295:
+    id: node_type
+    bundles:
+      press_article: press_article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d9a598b1-e408-44fc-a668-9d82ade9f295
+selection_logic: and
+weight: -5
+relationships: {  }
