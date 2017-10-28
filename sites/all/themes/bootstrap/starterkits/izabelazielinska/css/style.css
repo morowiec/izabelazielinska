@@ -17,6 +17,11 @@ img {
   border: 1px solid #ddd;
 }
 
+.field--name-body img.align-right {
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 .navbar-default .navbar-brand {
   color: #fff;
   text-shadow: 2px 2px 3px #333;
