@@ -251,7 +251,7 @@ display:
           element_wrapper_class: ''
           element_default_classes: true
           empty: ''
-          hide_empty: false
+          hide_empty: true
           empty_zero: false
           hide_alter_empty: true
           view: gallery_group
@@ -269,7 +269,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "{% if uuid=='1' %}\n<a href=\"{{ view|striptags }}\">{{ field_main_image }}</a>\n{% else %}\n<a href=\"{{ tid }}\">{{ field_main_image }}</a>\n{% endif %}"
+            text: "{% if uuid=='1' %}\n  {% if view %}\n    <a href=\"{{ view|striptags }}\">{{ field_main_image }}</a>\n  {% else %}\n    <a href=\"{{ tid }}\">{{ field_main_image }}</a>\n  {% endif %}\n{% else %}\n  <a href=\"{{ tid }}\">{{ field_main_image }}</a>\n{% endif %}"
             make_link: false
             path: ''
             absolute: false
@@ -333,7 +333,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "{% if uuid=='1' %}\n<a href=\"{{ view|striptags }}\">{{ name__value }}</a>\n{% else %}\n<a href=\"{{ tid }}\">{{ name__value }}</a>\n{% endif %}"
+            text: "{% if uuid=='1' %}\n  {% if view %}\n    <a href=\"{{ view|striptags }}\">{{ name__value }}</a>\n  {% else %}\n    <a href=\"{{ tid }}\">{{ name__value }}</a>\n  {% endif %}\n{% else %}\n  <a href=\"{{ tid }}\">{{ name__value }}</a>\n{% endif %}"
             make_link: false
             path: ''
             absolute: false
