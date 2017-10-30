@@ -47,6 +47,7 @@ img {
 
 .footer {
   margin-top: 0;
+  padding-top: 15px;
   border: none;
 }
 
@@ -141,4 +142,25 @@ img {
 
 .field--name-field-images .field--item img {
   margin: 0 auto;
+}
+
+.block-copyright-block {
+  text-align: center;
+}
+
+.block-contact-block {
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+.block-copyright-block {
+  float: left;
+  text-align: left;
+}
+
+.block-contact-block {
+  float: right;
+  text-align: right;
+}
+
 }
