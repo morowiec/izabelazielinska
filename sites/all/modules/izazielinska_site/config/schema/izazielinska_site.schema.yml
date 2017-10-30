@@ -1,0 +1,10 @@
+# Extend the system.site configuration
+
+system.site:
+  mapping:
+    contact_phone:
+      type: string
+      label: 'Contact phone'
+    contact_email:
+      type: string
+      label: 'Contact email'
