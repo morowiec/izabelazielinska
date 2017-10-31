@@ -9,8 +9,8 @@ dependencies:
     - izabelazielinska
 id: izabelazielinska_main_menu
 theme: izabelazielinska
-region: navigation
-weight: 0
+region: navigation_collapsible
+weight: -10
 provider: null
 plugin: 'system_menu_block:main'
 settings:

@@ -8,7 +8,7 @@ dependencies:
 id: izabelazielinska_branding
 theme: izabelazielinska
 region: header
-weight: 0
+weight: -9
 provider: null
 plugin: system_branding_block
 settings:
@@ -17,6 +17,6 @@ settings:
   provider: system
   label_display: '0'
   use_site_logo: false
-  use_site_name: true
+  use_site_name: false
   use_site_slogan: false
 visibility: {  }

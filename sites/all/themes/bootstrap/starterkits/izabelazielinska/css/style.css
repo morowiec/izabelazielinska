@@ -17,6 +17,24 @@ img {
   border: 1px solid #ddd;
 }
 
+.logo img {
+  border: none;
+  position: absolute;
+  top: 45px;
+  left: 0;
+}
+@media screen and (min-width:768px) {
+  .logo img {
+    top: 15px;
+    left: 5px;
+  }
+}
+.navbar .logo {
+  padding: 0;
+  margin: 0;
+}
+
+
 .field--name-body img.align-right {
   margin-left: 1em;
   margin-bottom: 1em;
@@ -29,6 +47,43 @@ img {
 }
 .navbar-default a.navbar-brand:hover {
   color: #ddd;
+}
+
+.navbar-nav {
+  background-color: #F8F8F8;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-rigth: 1px solid #fff;
+  border-radius: 3px 3px 0 0;
+}
+@media screen and (min-width:768px) {
+  .navbar-nav {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.navbar-toggle {
+  background-color: #fff;
+}
+@media screen and (max-width:767px) {
+  .navbar-toggle {
+    position: absolute;
+    left: 10px;
+    top: 0;
+  }
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+}
+@media screen and (max-width:767px) {
+  .navbar-default .navbar-collapse {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    top: 50px;
+  }
 }
 
 .navbar-nav a:hover {
@@ -82,18 +137,9 @@ img {
   .navbar.container{
     max-width: 1170px;
     height: 250px;
+    position: relative;
   }
 
-}
-
-.navbar-header {
-  background-color: #F8F8F8;
-  border-top: 1px solid #fff;
-  border-left: 1px solid #fff;
-  border-rigth: 1px solid #fff;
-  border-radius: 3px 3px 0 0;
-  position: absolute;
-  bottom: 0;
 }
 
 .language-switcher-language-url {
@@ -106,13 +152,13 @@ img {
 }
 .language-switcher-language-url ul.links li {
   overflow: hidden;
+  float: left;
   width: 28px;
   height: 18px;
   margin: 1px;
 }
 @media screen and (min-width:768px) {
   .language-switcher-language-url ul.links li {
-    float: left;
     margin: 5px;
   }
 

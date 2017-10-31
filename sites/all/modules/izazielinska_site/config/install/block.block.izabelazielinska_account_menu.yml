@@ -10,7 +10,7 @@ dependencies:
 id: izabelazielinska_account_menu
 theme: izabelazielinska
 region: navigation
-weight: 0
+weight: -10
 provider: null
 plugin: 'system_menu_block:account'
 settings:

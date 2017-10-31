@@ -9,7 +9,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: sites/all/themes/bootstrap/starterkits/izabelazielinska/logo.png
   url: ''
   use_default: true
 langcode: pl
