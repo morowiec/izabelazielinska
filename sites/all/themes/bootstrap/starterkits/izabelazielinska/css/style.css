@@ -94,6 +94,10 @@ img {
   color: #111;
 }
 
+#block-izabelazielinska-main-menu.contextual-region {
+  position: initial;
+}
+
 .main-container {
   background-color: #111;
   padding-top: 1em;
