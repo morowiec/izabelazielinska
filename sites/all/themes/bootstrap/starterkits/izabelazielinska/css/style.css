@@ -214,3 +214,10 @@ img {
 }
 
 }
+
+.view-gallery-group .views-field-title,
+.view-gallery-group-vocabulary .views-field-name {
+  padding-bottom: 0.5em;
+  min-height: 3em;
+  text-align: center;
+}

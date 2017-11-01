@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_main_image
+    - image.style.izazielinska_gallery_253x253
     - node.type.gallery
     - taxonomy.vocabulary.gallery_group
   module:
@@ -58,7 +59,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: 'col-xs-6 col-sm-6 col-md-4 col-lg-3'
+          row_class: 'col-xs-6 col-sm-4 col-md-4 col-lg-3'
           default_row_class: true
       row:
         type: fields
@@ -114,7 +115,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: ''
+            image_style: izazielinska_gallery_253x253
             image_link: content
           group_column: ''
           group_columns: {  }
