@@ -221,3 +221,22 @@ img {
   min-height: 3em;
   text-align: center;
 }
+
+.file-icon .text-primary {
+  color: #fff;
+}
+
+.field--name-field-attachment {
+  margin-top: 15px;
+}
+
+.file > span {
+  background-color: #333;
+  border-color: #666;
+  color: #ddd;
+}
+
+.file > span:first-child,
+.file > span:last-child{
+  border-color: #666;
+}
