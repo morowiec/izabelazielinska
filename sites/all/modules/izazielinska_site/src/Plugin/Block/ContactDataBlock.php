@@ -11,11 +11,11 @@ use Drupal\Core\Session\AccountInterface;
  * Provides a block with a simple text.
  *
  * @Block(
- *   id = "contact_block",
- *   admin_label = @Translation("ContactBlock"),
+ *   id = "contact_data_block",
+ *   admin_label = @Translation("ContactDataBlock"),
  * )
  */
-class ContactBlock extends BlockBase {
+class ContactDataBlock extends BlockBase {
   /**
    * {@inheritdoc}
    */
@@ -47,6 +47,6 @@ class ContactBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function blockSubmit($form, FormStateInterface $form_state) {
-    $this->configuration['contact_block_settings'] = $form_state->getValue('contact_block_settings');
+    $this->configuration['contact_data_block_settings'] = $form_state->getValue('contact_data_block_settings');
   }
 }
