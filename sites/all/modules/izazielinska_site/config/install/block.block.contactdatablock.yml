@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - izazielinska_site
+  theme:
+    - izabelazielinska
+id: contactdatablock
+theme: izabelazielinska
+region: footer
+weight: 0
+provider: null
+plugin: contact_data_block
+settings:
+  id: contact_data_block
+  label: ContactDataBlock
+  provider: izazielinska_site
+  label_display: '0'
+  contact_data_block_settings: null
+visibility: {  }

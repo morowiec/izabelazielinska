@@ -8,6 +8,8 @@ dependencies:
   - ckeditor
   - comment
   - contact
+  - contact_block
+  - contact_storage
   - content_translation
   - editor
   - features
