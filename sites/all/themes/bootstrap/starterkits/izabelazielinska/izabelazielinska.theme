@@ -6,7 +6,36 @@
  * Place your custom PHP code in this file.
  */
 
+/**
+ * Implements hook_preprocess_html().
+ */
 function izabelazielinska_preprocess_html(&$variables) {
   $current_path = \Drupal::service('path.current')->getPath();
   $variables['current_path'] = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
+}
+
+/**
+ * Implements hook_preprocess_block() for blocks.
+ */
+function izabelazielinska_preprocess_node(&$variables) {
+  if ($variables['node']->getType() == 'page') {
+    $current_path = \Drupal::service('path.current')->getPath();
+    $alias = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
+    switch ($alias) {
+      case '/contact':
+      case '/kontack':
+      case '/kontakt':
+        $variables['attributes']['class'][] = 'col-md-6';
+        break;
+    }
+  }
+}
+
+/**
+ * Implements hook_preprocess_block() for blocks.
+ */
+function izabelazielinska_preprocess_block(&$variables) {
+  if ($variables['plugin_id'] == 'contact_block') {
+    $variables['attributes']['class'][] = 'col-md-6';
+  }
 }
