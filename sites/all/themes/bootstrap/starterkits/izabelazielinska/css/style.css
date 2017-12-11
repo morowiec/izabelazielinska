@@ -240,3 +240,7 @@ img {
 .file > span:last-child{
   border-color: #666;
 }
+
+.page-node-type-gallery .field--name-field-images {
+  clear: both;
+}
