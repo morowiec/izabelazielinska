@@ -60,6 +60,7 @@ img {
   .navbar-nav {
     position: absolute;
     bottom: 0;
+    right: 10px;
   }
 }
 
