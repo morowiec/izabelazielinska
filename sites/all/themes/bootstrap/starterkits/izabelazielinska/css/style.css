@@ -20,13 +20,15 @@ img {
 .logo img {
   border: none;
   position: absolute;
-  top: 45px;
-  left: 0;
+  top: 10px;
+  left: 80px;
+  height: 140px;
 }
 @media screen and (min-width:768px) {
   .logo img {
     top: 15px;
     left: 5px;
+    height: auto;
   }
 }
 .navbar .logo {
@@ -71,7 +73,7 @@ img {
   .navbar-toggle {
     position: absolute;
     left: 10px;
-    top: 0;
+    top: 2px;
   }
 }
 
