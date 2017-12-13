@@ -28,6 +28,10 @@ img {
   .logo img {
     top: 15px;
     left: 5px;
+  }
+}
+@media screen and (min-width:992px) {
+  .logo img {
     height: auto;
   }
 }
