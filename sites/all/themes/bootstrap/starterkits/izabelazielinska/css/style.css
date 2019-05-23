@@ -1,0 +1,253 @@
+body {
+  color: #fff;
+  background-color: #202020;
+}
+
+a {
+  color: #999;
+}
+a:hover {
+  color: #bbb;
+}
+a:focus {
+  color: #ddd;
+}
+
+img {
+  border: 1px solid #ddd;
+}
+
+.logo img {
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  height: 140px;
+}
+@media screen and (min-width:768px) {
+  .logo img {
+    top: 15px;
+    left: 5px;
+  }
+}
+@media screen and (min-width:992px) {
+  .logo img {
+    height: auto;
+  }
+}
+.navbar .logo {
+  padding: 0;
+  margin: 0;
+}
+
+
+.field--name-body img.align-right {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  text-shadow: 2px 2px 3px #333;
+  font-size: 30px;
+}
+.navbar-default a.navbar-brand:hover {
+  color: #ddd;
+}
+
+.navbar-nav {
+  background-color: #F8F8F8;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-rigth: 1px solid #fff;
+  border-radius: 3px 3px 0 0;
+}
+@media screen and (min-width:768px) {
+  .navbar-nav {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
+}
+
+.navbar-toggle {
+  background-color: #fff;
+}
+@media screen and (max-width:767px) {
+  .navbar-toggle {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+  }
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+}
+@media screen and (max-width:767px) {
+  .navbar-default .navbar-collapse {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    top: 50px;
+  }
+}
+
+.navbar-nav a:hover {
+  color: #333;
+}
+
+.navbar-nav a:focus {
+  color: #111;
+}
+
+#block-izabelazielinska-main-menu.contextual-region {
+  position: initial;
+}
+
+.main-container {
+  background-color: #3f3f3f;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+}
+
+.footer {
+  margin-top: 0;
+  padding-top: 15px;
+  border: none;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar.container {
+  border: none;
+  border-radius: 0;
+  position: relative;
+  background: #333 url(../images/header.jpg) top left;
+  height: 160px;
+}
+
+@media screen and (min-width:768px) {
+  .navbar.container {
+    max-width: 750px;
+  }
+
+}
+
+@media screen and (min-width:992px){
+  .navbar.container {
+    max-width: 970px;
+    height: 206px;
+  }
+
+}
+
+@media screen and (min-width:1200px){
+  .navbar.container{
+    max-width: 1170px;
+    height: 250px;
+    position: relative;
+  }
+
+}
+
+.language-switcher-language-url {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+.language-switcher-language-url ul.links {
+  list-style: none;
+}
+.language-switcher-language-url ul.links li {
+  overflow: hidden;
+  float: left;
+  width: 28px;
+  height: 18px;
+  margin: 1px;
+}
+@media screen and (min-width:768px) {
+  .language-switcher-language-url ul.links li {
+    margin: 5px;
+  }
+
+}
+
+.language-switcher-language-url ul.links li a {
+  width: 28px;
+  height: 18px;
+  overflow: hidden;
+  color: transparent;
+}
+
+.language-switcher-language-url ul.links li.en a {
+  background: #333 url(../images/en.gif);
+}
+.language-switcher-language-url ul.links li.pl a {
+  background: #333 url(../images/pl.gif);
+}
+.language-switcher-language-url ul.links li.de a {
+  background: #333 url(../images/de.gif);
+}
+
+.field--name-field-images .field--item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.field--name-field-images .field--item img {
+  margin: 0 auto;
+}
+
+.block-copyright-block {
+  text-align: center;
+}
+
+.block-contact-data-block {
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+.block-copyright-block {
+  float: left;
+  text-align: left;
+}
+
+.block-contact-data-block {
+  float: right;
+  text-align: right;
+}
+
+}
+
+.view-gallery-group .views-field-title,
+.view-gallery-group-vocabulary .views-field-name {
+  padding-bottom: 0.5em;
+  min-height: 3em;
+  text-align: center;
+}
+
+.file-icon .text-primary {
+  color: #fff;
+}
+
+.field--name-field-attachment {
+  margin-top: 15px;
+}
+
+.file > span {
+  background-color: #333;
+  border-color: #666;
+  color: #ddd;
+}
+
+.file > span:first-child,
+.file > span:last-child{
+  border-color: #666;
+}
+
+.page-node-type-gallery .field--name-field-images {
+  clear: both;
+}

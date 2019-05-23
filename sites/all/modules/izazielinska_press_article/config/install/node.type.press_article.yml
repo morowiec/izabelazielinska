@@ -1,0 +1,16 @@
+langcode: pl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Press article'
+type: press_article
+description: 'Use Press article for adding new press article.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

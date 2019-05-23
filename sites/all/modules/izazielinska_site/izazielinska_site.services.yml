@@ -1,0 +1,5 @@
+services:
+  izazielinska_site.route_subscriber:
+    class: 'Drupal\izazielinska_site\Routing\IzazielinskaSiteRouteSubscriber'
+    tags:
+      - { name: event_subscriber }

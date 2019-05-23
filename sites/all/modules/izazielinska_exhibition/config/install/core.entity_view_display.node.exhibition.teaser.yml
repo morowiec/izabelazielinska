@@ -1,8 +1,10 @@
-langcode: en
+langcode: pl
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.exhibition.field_date
+    - field.field.node.exhibition.field_type_of_exhibition
     - node.type.exhibition
   module:
     - user
@@ -15,4 +17,6 @@ content:
     weight: 100
     region: content
 hidden:
+  field_date: true
+  field_type_of_exhibition: true
   langcode: true

@@ -1,0 +1,49 @@
+langcode: pl
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_gallery_group
+    - field.field.node.gallery.field_images
+    - field.field.node.gallery.field_main_image
+    - image.style.izazielinska_gallery_180x252
+    - node.type.gallery
+  module:
+    - colorbox
+    - text
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_images:
+    weight: 1
+    label: hidden
+    settings:
+      colorbox_node_style: izazielinska_gallery_180x252
+      colorbox_node_style_first: ''
+      colorbox_image_style: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+    third_party_settings: {  }
+    type: colorbox
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_gallery_group: true
+  field_main_image: true
+  langcode: true

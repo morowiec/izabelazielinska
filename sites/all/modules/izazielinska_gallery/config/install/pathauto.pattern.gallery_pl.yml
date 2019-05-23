@@ -1,0 +1,32 @@
+langcode: pl
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: gallery_pl
+label: 'Gallery PL'
+type: 'canonical_entities:node'
+pattern: 'galeria/[node:field_gallery_group:entity:name]/[node:title]'
+selection_criteria:
+  82dda71d-cb4e-4cdf-a583-957c41d469aa:
+    id: node_type
+    bundles:
+      gallery: gallery
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 82dda71d-cb4e-4cdf-a583-957c41d469aa
+  db367470-b179-432f-a71a-841d8d8f7992:
+    id: language
+    langcodes:
+      pl: pl
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: db367470-b179-432f-a71a-841d8d8f7992
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

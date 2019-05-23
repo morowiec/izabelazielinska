@@ -1,0 +1,24 @@
+langcode: pl
+status: true
+dependencies:
+  module:
+    - language
+    - taxonomy
+id: gallery_group_de
+label: 'Gallery group DE'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'galerie/[term:name]'
+selection_criteria:
+  bf99d1e1-1e0c-4c64-b2ec-7bc298c7a86d:
+    id: language
+    langcodes:
+      de: de
+    negate: false
+    context_mapping:
+      language: 'taxonomy_term:langcode:language'
+    uuid: bf99d1e1-1e0c-4c64-b2ec-7bc298c7a86d
+selection_logic: and
+weight: -5
+relationships:
+  'taxonomy_term:langcode:language':
+    label: Language

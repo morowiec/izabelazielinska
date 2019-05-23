@@ -17,3 +17,5 @@ dependencies:
   - user
   - views
 package: izazielinska
+'interface translation project': izazielinska_exhibition
+'interface translation server pattern': sites/all/modules/izazielinska_exhibition/exhibition.%language.po

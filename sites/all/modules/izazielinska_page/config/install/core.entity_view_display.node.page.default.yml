@@ -3,8 +3,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_attachment
     - node.type.page
   module:
+    - file
     - text
     - user
 id: node.page.default
@@ -19,8 +21,17 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_attachment:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
   links:
     weight: 101
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   langcode: true

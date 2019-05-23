@@ -1,0 +1,8 @@
+langcode: pl
+status: true
+dependencies: {  }
+name: 'Gallery group'
+vid: gallery_group
+description: 'Contains Gallery group like Wedding photography, Reportages ect'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,19 @@
+langcode: pl
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - izabelazielinska
+id: izabelazielinska_help
+theme: izabelazielinska
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -38,3 +38,12 @@ update.php
 /themes
 /vendor
 /sites/all/libraries
+
+# Exclude subtheme
+!/sites/all/themes/
+/sites/all/themes/*
+!/sites/all/themes/bootstrap/
+/sites/all/themes/bootstrap/*
+!/sites/all/themes/bootstrap/starterkits/
+/sites/all/themes/bootstrap/starterkits/*
+!/sites/all/themes/bootstrap/starterkits/izabelazielinska

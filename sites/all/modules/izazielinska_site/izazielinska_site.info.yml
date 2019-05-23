@@ -3,15 +3,30 @@ description: 'Provides site components.'
 type: module
 core: 8.x
 dependencies:
+  - block
   - block_content
   - ckeditor
+  - comment
   - contact
+  - contact_block
+  - contact_storage
   - content_translation
   - editor
+  - features
   - field
   - filter
+  - help
+  - image
+  - izazielinska_core
+  - izazielinska_site
   - language
+  - node
+  - path
   - rdf
+  - search
+  - system
   - taxonomy
   - text
+  - user
+  - views
 package: izazielinska
